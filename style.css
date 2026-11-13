@@ -1,0 +1,229 @@
+/* =================================
+   1. PENGATURAN DASAR
+================================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =================================
+   2. NAVBAR - PERTEMUAN 5
+================================= */
+nav {
+    background-color: #102951;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+/* NAMA WEBSITE */
+.logo {
+    color: white;
+    font-size: 22px;
+    margin: 0;
+}
+
+/* DAFTAR MENU */
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* LINK MENU */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* EFEK HOVER NAVBAR */
+nav a:hover {
+    color: #60a5fa;
+}
+
+
+/* =================================
+   3. BAGIAN KONTEN WEBSITE
+================================= */
+section {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+/* =================================
+   4. JUDUL UTAMA
+================================= */
+h1 {
+    color: blue;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+/* =================================
+   5. JUDUL BAGIAN
+================================= */
+section h2 {
+    color: #102951;
+    text-align: center;
+}
+
+
+/* =================================
+   6. PARAGRAF
+================================= */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* DESKRIPSI DI BAGIAN HOME */
+.deskripsi {
+    text-align: center;
+}
+
+
+/* =================================
+   7. FOTO PROFIL
+================================= */
+.foto-profil {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+
+    /* TAMBAHAN P8 */
+    transition: 0.3s;
+}
+
+/* EFEK HOVER FOTO - P8 */
+.foto-profil:hover {
+    transform: scale(1.05);
+}
+
+
+/* =================================
+   8. LINK DI DALAM KONTEN
+================================= */
+section a {
+    color: blue;
+}
+
+
+/* =================================
+   9. WADAH UNTUK SEMUA CARD
+================================= */
+.container-card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* =================================
+   10. TAMPILAN CARD
+================================= */
+.card {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    /* TAMBAHAN P8 */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* EFEK HOVER CARD - P8 */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* =================================
+   11. GAMBAR DALAM CARD
+================================= */
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* =================================
+   12. JUDUL CARD
+================================= */
+.card h3 {
+    color: #2563eb;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+/* =================================
+   13. DESKRIPSI CARD
+================================= */
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+/* =================================
+   14. TOMBOL LIHAT PROYEK
+================================= */
+.card a {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+
+    /* TAMBAHAN P8 */
+    transition: 0.3s;
+}
+
+
+/* EFEK HOVER TOMBOL */
+.card a:hover {
+    background-color: #1e40af;
+
+    /* TAMBAHAN P8 */
+    transform: scale(1.05);
+}
+
+
+/* =================================
+   15. BAGIAN PENUTUP
+================================= */
+footer {
+    background-color: #102951;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
